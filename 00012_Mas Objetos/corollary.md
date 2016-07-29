@@ -1,0 +1,1 @@
+Para pensar.. qué pasaría si la hicieramos entrenar, así como está, con roshi (es decir, hacemos que sea su pupila para luego hacer que roshi la entrene). ¿Funcionaría? 

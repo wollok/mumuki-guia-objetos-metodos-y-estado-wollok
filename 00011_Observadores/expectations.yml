@@ -1,0 +1,4 @@
+---
+expectations:
+- binding: roshi
+  inspection: HasBinding
