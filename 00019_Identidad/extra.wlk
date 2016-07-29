@@ -1,7 +1,0 @@
-object pepita {
-  
-}
-
-object anastasia {
-  
-}
