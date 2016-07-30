@@ -3,11 +3,11 @@ Los objetos no serían demasiado interesantes si sólo pudiéramos declararlos y
 Por ejemplo, podríamos pedirle a `pepita` que vuele. ¿Cómo podemos darle órdenes a un objeto? Así:
 
 ```wollok
-ム pepita.volar()
+ム pepita.volarEnCirculos()
 
 ```
 
-Esto es lo que se conoce como **enviar un mensaje**: al objeto `pepita`, le enviamos el mensaje `volar()`. Y `pepita` volará..., ¿no?
+Esto es lo que se conoce como **enviar un mensaje**: al objeto `pepita`, le enviamos el mensaje `volarEnCirculos()`. Y `pepita` volará..., ¿no?
 
-> Probalo vos mismo: enviale a `pepita` el mensaje `volar()` y fijate qué pasa. 
+> Probalo vos mismo: enviale a `pepita` el mensaje `volarEnCirculos()` y fijate qué pasa. 
 
