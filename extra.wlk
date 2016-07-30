@@ -17,32 +17,3 @@ object mercedes {
   
 }
 
-object pepita {
-  var energia = 100
-  
-  method energia() = energia
-  
-  method cantar() {
-    console.println("pri pri pri")
-  }
-  
-  method comerLombriz() {
-    self.alimentarse(20)
-  }
-  
-  method alimentarse(unaEnergia) {
-    energia += unaEnergia 
-  }
-  
-  method volarEnCirculos() {
-    energia -= 10
-  }
-  
-  method volarHacia(unaCiudad) {
-    energia -= self.distancia(unaCiudad) * 3
-  }
-  
-  method distancia(unaCiudad) = (ciudad.kilometro() - unaCiudad.kilometro()).abs()
-  
-  method toString() = "objeto pepita"
-}
