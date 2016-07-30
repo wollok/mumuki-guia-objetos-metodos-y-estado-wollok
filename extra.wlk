@@ -17,16 +17,6 @@ object mercedes {
   
 }
 
-object anastasia {
-  method cantar() {
-    console.println("priiiip priiiip")
-  }
-  
-  method volarEnCirculos() {}
-  
-  method toString() = "objeto anastasia"
-}
-
 object pepita {
   var energia = 100
   
