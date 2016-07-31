@@ -4,7 +4,7 @@ Ahora bien, `volarEnCirculos` no era un método muy interesante: se trataba de u
 
 ¿Cómo podríamos decir, entonces, que cuando `pepita` vuele, pierda 20 unidades de energia? ¿Y que inicialmente es `100`? Así: 
 
-```wollok
+```scala
 object pepita {
   var energia = 100
   
