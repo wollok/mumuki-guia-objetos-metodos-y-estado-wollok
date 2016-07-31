@@ -1,9 +1,3 @@
-Ser un objeto solitario no es muy divertido. Por eso `pepita` es amiga de otra golondrina `anastasia`. Para crear a pepita sólo tuvimos que hacer:
+Ser un objeto solitario no es muy divertido. 
 
-```wollok
-object pepita {
-  
-}
-```
-
-> Ahora te toca a vos: creá a otra golondrina, `anastasia`
+> Ahora te toca a vos: declará a `anastasia`, la amiga de `pepita`
