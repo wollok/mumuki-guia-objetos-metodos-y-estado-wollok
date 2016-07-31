@@ -1,3 +1,3 @@
-Ser un objeto solitario no es muy divertido. 
+¡Ups! No entiende `volarEnCirculos` :confused: . Pero vamos por partes...
 
-> Ahora te toca a vos: declará a `anastasia`, la amiga de `pepita`
+> Ser un objeto solitario no es muy divertido: declará a `anastasia`, la amiga de `pepita`
