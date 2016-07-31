@@ -1,6 +1,6 @@
 Inicialmente en el ambiente sólo existen objetos simples como números, strings y booleanos. Pero si queremos crear y utilizar objetos definidos por nosotros, tenemos que **declararlos**. Eso lo hacemos de la siguiente forma: 
 
-```wollok
+```scala
 object pepita {
 }
 ```
