@@ -7,4 +7,4 @@ object pepita {
 }
 ```
 
-> Ahora que declaramos el método `volar`, probá de nuevo enviar el mensaje `volar()` 
+> Ahora que declaramos el método `volarEnCirculos`, probá de nuevo enviar el mensaje `volarEnCirculos()` 
