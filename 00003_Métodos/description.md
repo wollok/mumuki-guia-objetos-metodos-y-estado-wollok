@@ -1,17 +1,8 @@
-¡Momento! ¿Que acaba de suceder?
+¿Cómo hacemos que un objeto entienda un mensaje? Tenemos que declararle un **método**: 
 
 ```wollok
-ム pepita.volar()
- Error in line (line:1): pepita.volar():
-          Message not understood: pepita[] does not understand volar
-```
-
-¡Nuestro programa estalló! Y el mensaje nos está indicando que `pepita` _no entiende_ el mensaje `volar()`. Y claro, ¡tiene sentido!¡Núnca le dijimos a `pepita` cómo volar! Para eso tenemos que declararle un **método**: 
-
-```
 object pepita {
-   method volar() {
-   
+   method volarEnCirculos() {
    }
 }
 ```
