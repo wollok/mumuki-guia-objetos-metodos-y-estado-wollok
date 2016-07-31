@@ -1,0 +1,3 @@
+¡Momento! Yo recuerdo que cuando `pepita` comía lombrices, ganaba energía, y cuando volaba en círuclos, perdía. :expressionless:
+
+Es que nos falta algo: tenemos que _enseñarle_ a `pepita` a hacer estas cosas. ¿Cómo? La respuesta a continuación...
