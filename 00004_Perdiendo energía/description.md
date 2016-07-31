@@ -1,4 +1,4 @@
-Acabamos de aprender una de las reglas fundamentales del envío de mensaje: si a un objeto no le decímos cómo reaccionar ante un mensaje, y se lo envíamos, no lo entenderá y nuestro programa se romperá. Y la forma de decir esto es declarando un método. 
+Acabamos de aprender una de las reglas fundamentales del envío de mensaje: si a un objeto no le decímos **cómo** reaccionar ante un mensaje, y se lo envíamos, no lo entenderá y nuestro programa se romperá. Y la forma de decir esto es declarando un método. 
 
 Ahora bien, `volarEnCirculos` no era un método muy interesante: se trataba de un _método vacío_ que evitaba que el programa se rompiera, pero no hacía nada. En realidad, cuando vuela, `pepita` tiene energía, que varía con el tiempo. 
 
