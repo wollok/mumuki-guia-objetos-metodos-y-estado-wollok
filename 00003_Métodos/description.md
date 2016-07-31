@@ -1,6 +1,6 @@
 ¿Cómo hacemos que un objeto entienda un mensaje? Tenemos que declararle un **método**: 
 
-```wollok
+```scala
 object pepita {
    method volarEnCirculos() {
    }
