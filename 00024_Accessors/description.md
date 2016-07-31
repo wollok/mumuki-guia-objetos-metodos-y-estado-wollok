@@ -1,13 +1,15 @@
-_Vamos por partes..._
-
-Lo que acabamos de expresar son dos cosas diferentes: 
+Volemos a la declaración anterior: 
 
 ```wollok
 object pepita {
-  var energia = 100 // 1.
+  var energia = 100
   
   method volarEnCirculos() {
-     energia -= 20 // 2.
+     energia -= 20
+  }
+  
+  method comerLombriz() {
+     energia += 10
   }
 }
 ```
@@ -23,11 +25,3 @@ Lo cual tiene mucho sentido. Sin embargo, la última consulta que probamos fall�
 ```
 
 El motivo es simple: **los atributos NO son mensajes**. 
-
-
-
-> Veamos si se va entendiendo: 
-> 
-> `pepita` también sabe comer, y cuando lo hace, gana 50 unidades de energía. Sabiendo esto, agregá 
-> a `pepita` el método `comer` 
-> 
