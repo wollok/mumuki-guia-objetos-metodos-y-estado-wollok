@@ -1,9 +1,8 @@
-La programación con objetos, a veces también llamada _orientada a_ objetos, es quizás el paradigma de programación más utilizado hoy en día para construir software. Y parte de una idea muy simple: podemos representar al mundo como un **conjunto de objetos** que _interactúan_ entre ellos. 
+¡Hola de nuevo! :wave:
 
-Ahora bien: ¿qué es un objeto? Un objeto es .... ¡una cosa! _(¡braaaaavo! :sunglasses:)_. Bueno, bueno, no cualquier cosa, sino algo que capaz de hacer alguna tarea, la cual conocemos como **responsabilidad** del objeto.
+Ya aprendiste que en un mundo de objetos hay objetos que hacen cosas, y nos comunicamos con ellos mediante mensajes. 
 
-¿Y cómo interactúan estos objetos? ¿cómo se ven? ¿como hablan entre ellos? 
+En la lección anterior además trabajamos con varios objetos que nosotros creamos por vos. Peeeero esto no siempre será así: en general programar con objetos tambien trata de crearlos (es decir, traerlos al mundo) y decirles cómo se deben comportar.
 
-¡Cuántas preguntas! Vamos por partes: ¡conozcamos a nuestros primeros objetos!
-
+¡Aprendamos entonces a crear objetos! ¡Acompañanos!
 
