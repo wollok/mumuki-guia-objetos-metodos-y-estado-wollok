@@ -2,7 +2,7 @@ _Vamos por partes..._
 
 Lo que acabamos de expresar son dos cosas diferentes: 
 
-```wollok
+```scala
 object pepita {
   var energia = 100 // 1.
   
@@ -16,18 +16,6 @@ object pepita {
 2. cuando `pepita` recibe el mensaje `volarEnCirculos()`, decrementa su energía: se _reasigna_ y pasa a valer su valor anterior, menos 20.  
 
 
-Lo cual tiene mucho sentido. Sin embargo, la última consulta que probamos falló:
-
-```
-ム pepita.energia()
-```
-
-El motivo es simple: **los atributos NO son mensajes**. 
-
-
-
-> Veamos si se va entendiendo: 
-> 
-> `pepita` también sabe comer, y cuando lo hace, gana 50 unidades de energía. Sabiendo esto, agregá 
-> a `pepita` el método `comer` 
+> Veamos si se va entendiendo: `pepita` también sabe `comerLombriz`, y cuando lo hace, gana 10 unidades de energía.
+> Sabiendo esto, agregá a `pepita` el método `comerLombriz` 
 > 

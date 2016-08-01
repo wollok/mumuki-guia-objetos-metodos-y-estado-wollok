@@ -1,6 +1,6 @@
-Volemos a la declaración anterior: 
+Volemos :rocket: a la declaración anterior: 
 
-```wollok
+```scala
 object pepita {
   var energia = 100
   
@@ -14,14 +14,23 @@ object pepita {
 }
 ```
 
-1. pepita _conoce_ o _tiene_ un nivel de energía, que es variable, y es inicialmente 100. Este nivel es un _atributo_ de `pepita`
-2. cuando `pepita` recibe el mensaje `volarEnCirculos()`, decrementa su energía: se _reasigna_ y pasa a valer su valor anterior, menos 20.  
+Si enviamos el mensaje `energia`, fallará:
 
-
-Lo cual tiene mucho sentido. Sin embargo, la última consulta que probamos falló:
-
-```
-ム pepita.energia()
+```wollok
+ム  pepita.energia()
+pepita[energia=100] does not understand energia()
 ```
 
-El motivo es simple: **los atributos NO son mensajes**. 
+El motivo es simple: **los atributos NO son mensajes**. Entonces, ¿cómo podríamos consultar la energía de pepita? ¡Declarando un método, por supuesto!
+
+```scala
+object pepita {
+   /*...atributos y método anteriores...*/
+   
+   method energia() {
+      return energia
+   }
+}
+```
+
+
