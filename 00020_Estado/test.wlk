@@ -4,7 +4,7 @@ test "estadoDePepita" {
   var estadoDePepita
   var estadoDeEnrique
   var estadoDeNokia1100
-  var estadoDeMotorlaC115
+  var estadoDeMotorolaC115
   
   /*...content...*/
   
@@ -15,7 +15,7 @@ test "estadoDeNokia1100" {
   var estadoDePepita
   var estadoDeEnrique
   var estadoDeNokia1100
-  var estadoDeMotorlaC115
+  var estadoDeMotorolaC115
   
   /*...content...*/
   
@@ -26,18 +26,18 @@ test "estadoDeMotoralC115" {
   var estadoDePepita
   var estadoDeEnrique
   var estadoDeNokia1100
-  var estadoDeMotorlaC115
+  var estadoDeMotorolaC115
   
   /*...content...*/
   
-  assert.equals(#{}, estadoDeMotoralC115)
+  assert.equals(#{}, estadoDeMotorolaC115)
 }
 
 test "estadoDeEnrique" {
   var estadoDePepita
   var estadoDeEnrique
   var estadoDeNokia1100
-  var estadoDeMotorlaC115
+  var estadoDeMotorolaC115
   
   /*...content...*/
   

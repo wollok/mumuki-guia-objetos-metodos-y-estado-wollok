@@ -7,7 +7,7 @@ estadoDeNokia1100 = #{
   //completar acá...
 }
 
-estadoDeMotoralC115 = #{
+estadoDeMotorolaC115 = #{
   //completar acá...
 }
 
