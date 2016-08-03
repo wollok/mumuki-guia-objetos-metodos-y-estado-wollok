@@ -18,3 +18,7 @@ Luego, la operación de asignación lo que hace es cambiar ese apuntador, que pa
 
 <img src="https://github.com/wollok/mumuki-guia-objetos-metodos-y-estado-wollok/raw/master/assets/reference2.png" width="300" />
 
+En este caso se da una particularidad: el objeto asignado a la referencia es el resultado de **enviar el mensaje** `-` al objeto apuntado originalmente por la referencia: `energia = energia - 20`. Y como esto es tan común, se puede escribir de forma más compacta: `energia -= 20`
+
+
+> Veamos si queda claro, reescribí los métodos en el editor para que usen cuando puedan el `-=`, y su contrapartida, el `+=`
