@@ -1,4 +1,4 @@
-estadDePepita = #{
+estadoDePepita = #{
   "energia", 
   "ciudad"
 }
