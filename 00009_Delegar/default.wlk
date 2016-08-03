@@ -15,10 +15,14 @@ object pepita {
   var ciudad = rosario
   
   method volarHacia(destino) {
-    energia -= ((ciudad.kilometro() - destino.kilometro()).abs() / 2)
+    energia -= pepita.gastoEnergetico(destino)
     ciudad = destino
   }
-    
+
+  method gastoEnergetico(destino) {
+    return (ciudad.kilometro() - destino.kilometro()).abs() / 2
+  }
+  
   method energia() {
     return energia
   }
