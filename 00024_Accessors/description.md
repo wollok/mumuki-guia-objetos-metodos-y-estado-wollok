@@ -37,5 +37,7 @@ object pepita {
 >
 > * `ム pepita.energia()`
 > * `ム pepita.energia`
+> * `ム energia`
+
 > 
 > ¿Todas las consultas funcionan? ¿Por qué?
