@@ -7,7 +7,7 @@ object pepita {
   var energia = 100 // 1.
   
   method volarEnCirculos() {
-     energia -= 20 // 2.
+     energia = energia - 20 // 2.
   }
 }
 ```
