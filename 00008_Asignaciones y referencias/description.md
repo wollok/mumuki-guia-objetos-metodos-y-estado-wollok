@@ -14,7 +14,7 @@ En objetos trabajamos con _referencias_: `energia` (un atributo) es una referenc
 
 <img src="https://github.com/wollok/mumuki-guia-objetos-metodos-y-estado-wollok/raw/master/assets/reference1.png" width="300" />
 
-Luego, la operación de asignación lo que hace es cambiar ese apuntador, que pasa a referenciar al `80`.
+Luego, la operación de asignación cambia ese apuntador, que pasa a referenciar al `80`.
 
 <img src="https://github.com/wollok/mumuki-guia-objetos-metodos-y-estado-wollok/raw/master/assets/reference2.png" width="300" />
 
