@@ -19,3 +19,4 @@ object pepita {
 > Veamos si se va entendiendo: `pepita` también sabe `comerLombriz`, y cuando lo hace, gana 10 unidades de energía.
 > Sabiendo esto, agregá a `pepita` el método `comerLombriz` 
 > 
+
