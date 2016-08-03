@@ -3,7 +3,7 @@ test "pepita tiene inicialmente 100 unidades de energía" {
 }
 
 test "pepita pierde 20 unidades de energía cuando vuela en circulos" {
-  pepita.volar()
+  pepita.volarEnCirculos()
   assert.equals(pepita.toString().contains("energia=80"))
   
 }
