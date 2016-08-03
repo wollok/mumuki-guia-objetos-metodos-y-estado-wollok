@@ -8,21 +8,21 @@ object km296 {
 
 test "si pepita está en rosario y vuela a buenosAires, pierde 149 de energía" { 
    pepita.volarHacia(buenosAires)
-   assert.that(pepita.energia(), -49) 
+   assert.equals(pepita.energia(), -49) 
 }
 
 test "si pepita está en rosario y vuela a al kilometro 300, pierde 2 de energía" { 
    pepita.volarHacia(km300)
-   assert.that(pepita.energia(), 98) 
+   assert.equals(pepita.energia(), 98) 
 }
 
 test "si pepita está en rosario y vuela a al kilometro 296, pierde 2 de energía" { 
   pepita.volarHacia(km296)
-   assert.that(pepita.energia(), 98) 
+   assert.equals(pepita.energia(), 98) 
 }
 
 test "si pepita está en rosario y vuela a buenosAires, queda en buenos aires" { 
   pepita.volarHacia(buenosAires)
-  assert.that(pepita.ciudad(), buenosAires)
+  assert.equals(pepita.ciudad(), buenosAires)
   
 }
