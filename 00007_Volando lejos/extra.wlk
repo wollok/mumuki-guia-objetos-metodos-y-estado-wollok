@@ -1,3 +1,4 @@
+/*<otros metodos#*/
 method volarEnCirculos() {
    energia = energia - 20
 }
@@ -11,5 +12,6 @@ method energia() {
 }
 
 method ciudad() {
-  return ciuda
+  return ciudad
 }
+/*#otros metodos>*/
