@@ -1,32 +1,32 @@
 /*...extra...*/
 
-test "estadDePepita" {
-  var estadDePepita
-  var estadDeEnrique
-  var estadDeNokia1100
-  var estadDeMotorlaC115
+test "estadoDePepita" {
+  var estadoDePepita
+  var estadoDeEnrique
+  var estadoDeNokia1100
+  var estadoDeMotorlaC115
   
   /*...content...*/
   
   assert.equals(#{"energia", "ciudad"}, estadoDePepita)
 }
 
-test "estadoDeNokia100" {
-  var estadDePepita
-  var estadDeEnrique
-  var estadDeNokia1100
-  var estadDeMotorlaC115
+test "estadoDeNokia1100" {
+  var estadoDePepita
+  var estadoDeEnrique
+  var estadoDeNokia1100
+  var estadoDeMotorlaC115
   
   /*...content...*/
   
-  assert.equals(#{}, estadDeNokia1100)
+  assert.equals(#{}, estadoDeNokia1100)
 }
 
 test "estadoDeMotoralC115" {
-  var estadDePepita
-  var estadDeEnrique
-  var estadDeNokia1100
-  var estadDeMotorlaC115
+  var estadoDePepita
+  var estadoDeEnrique
+  var estadoDeNokia1100
+  var estadoDeMotorlaC115
   
   /*...content...*/
   
@@ -34,10 +34,10 @@ test "estadoDeMotoralC115" {
 }
 
 test "estadoDeEnrique" {
-  var estadDePepita
-  var estadDeEnrique
-  var estadDeNokia1100
-  var estadDeMotorlaC115
+  var estadoDePepita
+  var estadoDeEnrique
+  var estadoDeNokia1100
+  var estadoDeMotorlaC115
   
   /*...content...*/
   

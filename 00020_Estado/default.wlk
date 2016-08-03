@@ -3,7 +3,7 @@ estadDePepita = #{
   "ciudad"
 }
 
-estadoDeNokia100 = #{
+estadoDeNokia1100 = #{
   //completar acá...
 }
 
