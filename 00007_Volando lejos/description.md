@@ -4,7 +4,7 @@ Volar hacia un cierto punto no es tarea tán fácil: en realidad, pepita pierde 
 energiaPerdida = distancia(ciudadOrigen, ciudadDestino) / 2
 ```
 
-Además, sabemos pepita vuela sobre [la ruta nacional 9]https://es.wikipedia.org/wiki/Ruta_Nacional_9_(Argentina)),  en la que Rosario está en el kilómetro 298 y Buenos Aires, el kilómetro 0. 
+Además, sabemos pepita vuela sobre [la ruta nacional 9](https://es.wikipedia.org/wiki/Ruta_Nacional_9_(Argentina)),  en la que Rosario está en el kilómetro 298 y Buenos Aires, el kilómetro 0. 
 
 > Sabiendo esto: 
 > 
