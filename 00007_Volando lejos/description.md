@@ -1,4 +1,4 @@
-Volar hacia un cierto punto no es tarea tán fácil: en realidad, pepita pierde tanta energía como la mitad de kilómetros que tenga que recorrer. Es decir, ignorando unidades, pierde energía según la siguiente cuenta:
+Volar hacia un cierto punto no es tarea tán fácil: en realidad, `pepita` pierde tanta energía como la mitad de kilómetros que tenga que recorrer. Es decir, ignorando unidades, pierde energía según la siguiente cuenta:
 
 ```
 energiaPerdida = distancia(ciudadOrigen, ciudadDestino) / 2
