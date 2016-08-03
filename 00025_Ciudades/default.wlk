@@ -7,3 +7,5 @@ object pepita {
      energia = energia - 100 
   }
 }
+
+//y acá...
