@@ -3,7 +3,3 @@ object pepita {
     
   }
 }
-
-object anastasia {
-  
-}
