@@ -1,4 +1,4 @@
-Miremos por este método con más detenimiento: 
+Miremos este método con más detenimiento: 
 
 ```scala
 method volarEnCirculos() {
