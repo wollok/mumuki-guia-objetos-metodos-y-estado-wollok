@@ -1,6 +1,6 @@
 object pepita {
   var energia = 100
-  var lugar = rosario
+  var ciudad = rosario
   
   method volarEnCirculos() {
      energia = energia - 20
