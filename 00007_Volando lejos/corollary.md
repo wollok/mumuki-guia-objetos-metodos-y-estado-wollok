@@ -1,4 +1,4 @@
-¡Bien hecho! Acabamos de ver que **un objeto también puede enviarle mensajes a otros objetos**. En este caso, `pepita` le envía el mensaje `kilómetro` a `rosario` o `buenosAires`, de forma indistinta. 
+¡Bien hecho! Acabamos de ver que **un objeto también puede enviarle mensajes a otros objetos**. En este caso, `pepita` le envía el mensaje `kilometro` a `rosario` o `buenosAires`, de forma indistinta. 
 
 Sin embargo, probablemente `volarHacia` te quedó parecido a ésto: 
 
