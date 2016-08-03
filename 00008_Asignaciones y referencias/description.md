@@ -6,7 +6,7 @@ method volarEnCirculos() {
 }
 ```
 
-Lo que estamos haciendo allí es cambiar la energía de pepita: pasa de su valor actual a ese valor, menos 20. Por ejemplo, pasa de 100 a 80. ¿Significa esto que el 100 _se transforma_ en un 80?
+Lo que estamos haciendo allí es cambiar la energía de pepita: pasa de su valor actual a ese valor, menos 20. Por ejemplo, pasa de `100` a `80`. ¿Significa esto que el `100` _se transforma_ en un `80` ? :thought_balloon:
 
 No, en lo absoluto. 
 
