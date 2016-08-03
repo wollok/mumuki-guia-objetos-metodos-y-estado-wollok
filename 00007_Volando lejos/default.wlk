@@ -2,12 +2,18 @@ object pepita {
   var energia = 100
   var ciudad = rosario
   
-  /*...otros métodos...*/
-  
   method volarHacia(destino) {
     //modiciar este método...
     energia = energia - 100
     lugar = destino
+  }
+    
+  method energia() {
+    return energia
+  }
+  
+  method ciudad() {
+    return ciudad
   }
 }
 
