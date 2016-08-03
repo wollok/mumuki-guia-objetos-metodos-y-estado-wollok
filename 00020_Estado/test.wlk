@@ -42,6 +42,6 @@ test "estadoDeEnrique" {
   /*...content...*/
   
   assert.equals(#{"celular", "cantidadDePesosEnBilletera", "fraseFavorita"}, estadoDeEnrique)
-  assert.equals(3, estadoDeEnrique.length())
+  assert.equals(3, estadoDeEnrique.size())
   
 }
