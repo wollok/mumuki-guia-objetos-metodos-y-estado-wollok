@@ -11,6 +11,12 @@ test "si pepita está en rosario y vuela a buenosAires, pierde 149 de energía" 
    assert.equals(pepita.energia(), -49) 
 }
 
+
+test "si pepita está en rosario y vuela a rosario, no pierde energia" { 
+   pepita.volarHacia(rosario)
+   assert.equals(pepita.energia(), 100) 
+}
+
 test "si pepita está en rosario y vuela a al kilometro 300, pierde 2 de energía" { 
    pepita.volarHacia(km300)
    assert.equals(pepita.energia(), 98) 
