@@ -1,7 +1,11 @@
 object pepita {
-  var energia = 100 // 1.
-  
+  var energia = 100
+
   method volarEnCirculos() {
-     energia = energia - 20 // 2.
+     energia = energia - 20
+  }
+  
+  method comerLombriz() {
+      energia = energia + 10
   }
 }
