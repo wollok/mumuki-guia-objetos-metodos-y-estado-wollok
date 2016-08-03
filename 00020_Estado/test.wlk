@@ -19,7 +19,7 @@ test "estadoDeNokia100" {
   
   /*...content...*/
   
-  assert.equals(#{}, estadoDeNokia100)
+  assert.equals(#{}, estadDeNokia1100)
 }
 
 test "estadoDeMotoralC115" {
