@@ -9,7 +9,3 @@ object pepita {
     return energia 
   }
 }
-
-object anastasia {
-  
-}
