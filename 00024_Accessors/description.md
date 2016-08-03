@@ -41,7 +41,7 @@ object pepita {
 }
 ```
 
-> Probá en la consola las ahora las siguientes consultas: 
+> Ya agregamos el método `energía` por vos. Probá en la consola ahora las siguientes consultas: 
 >
 > * `ム pepita.energia()`
 > * `ム pepita.energia`
