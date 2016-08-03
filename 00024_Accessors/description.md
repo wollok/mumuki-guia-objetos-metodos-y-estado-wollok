@@ -1,4 +1,4 @@
-Volemos a la declaración anterior  :rocket:: 
+Volemos a algunos ejercicios atrás :rocket:. Teníamos: 
 
 ```scala
 object pepita {
