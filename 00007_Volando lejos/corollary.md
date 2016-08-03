@@ -4,7 +4,7 @@ Probablemente `volarHacia` te quedó parecido a ésto:
 
 ```scala
 method volarHacia(destino) {
-  energia -= ((ciudad.kilometro() - destino.kilometro()).abs() / 2)
+  energia -= (ciudad.kilometro() - destino.kilometro()).abs() / 2
   ciudad = destino
 }
 ```
