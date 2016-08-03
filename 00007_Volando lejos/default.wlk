@@ -3,7 +3,7 @@ object pepita {
   var ciudad = rosario
   
   method volarHacia(destino) {
-    //modifiar este método...
+    //modificar este método...
     energia = energia - 100
     lugar = destino
   }
