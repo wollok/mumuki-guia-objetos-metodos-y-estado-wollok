@@ -1,4 +1,4 @@
-Volemos :rocket: a la declaración anterior: 
+Volemos a la declaración anterior  :rocket:: 
 
 ```scala
 object pepita {
@@ -14,7 +14,7 @@ object pepita {
 }
 ```
 
-Si enviamos el mensaje `energia`, fallará:
+Antes te mostramos que si enviamos el mensaje `energia`, fallará:
 
 ```wollok
 ム  pepita.energia()
@@ -33,4 +33,9 @@ object pepita {
 }
 ```
 
-
+> Probá en la consola las ahora las siguientes consultas: 
+>
+> * `ム pepita.energia()`
+> * `ム pepita.energia`
+> 
+> ¿Todas las consultas funcionan? ¿Por qué?

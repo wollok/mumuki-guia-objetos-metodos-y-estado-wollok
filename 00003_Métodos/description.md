@@ -9,6 +9,6 @@ object pepita {
 
 Un método contendrá la descripción de **qué hacer cuando se recibe un mensaje del mismo nombre**. 
 
-> Ahora que declaramos el método `volarEnCirculos`, probá de nuevo enviar el mensaje `volarEnCirculos()` 
+> ¡Esta colaboración ya no va a romperse! ¿No nos creés? Probá de nuevo enviar el mensaje `volarEnCirculos()` 
 > 
-> Notá que el mensaje es aquello que envías, mientras que el metodo es aquello que declarás dentro del objeto. 
+> :warning: Notá que el mensaje es aquello que envías, mientras que el metodo es aquello que declarás dentro del objeto. 
