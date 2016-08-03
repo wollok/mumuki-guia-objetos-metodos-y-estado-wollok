@@ -1,6 +1,6 @@
-¡Bien hecho!
+¡Bien hecho! Acabamos de ver que **un objeto también puede enviarle mensajes a otros objetos**. En este caso, `pepita` le envía el mensaje `kilómetro` a `rosario` o `buenosAires`, de forma indistinta. 
 
-Probablemente `volarHacia` te quedó parecido a ésto: 
+Sin embargo, probablemente `volarHacia` te quedó parecido a ésto: 
 
 ```scala
 method volarHacia(destino) {

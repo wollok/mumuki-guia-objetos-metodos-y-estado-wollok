@@ -1,1 +1,0 @@
-> Corregí la solución presentada, de forma que pepita delegue en un método `distanciaA`. 
