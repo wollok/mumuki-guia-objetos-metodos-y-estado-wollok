@@ -27,7 +27,9 @@ Antes te mostramos que si enviamos el mensaje `energia`, fallará:
 pepita[energia=100] does not understand energia()
 ```
 
-El motivo es simple: **los atributos NO son mensajes**. Entonces, ¿cómo podríamos consultar la energía de pepita? ¡Declarando un método, por supuesto!
+El motivo es simple: **los atributos NO son mensajes**. 
+
+Entonces, ¿cómo podríamos consultar la energía de pepita? ¡Declarando un método, por supuesto!
 
 ```scala
 object pepita {
