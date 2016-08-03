@@ -1,4 +1,4 @@
-Veamos algo de la declaración anterior:
+Revisemos la declaración anterior:
 
 ```scala
 object pepita {
