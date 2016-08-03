@@ -5,7 +5,7 @@ object pepita {
   method volarHacia(destino) {
     //modificar este método...
     energia = energia - 100
-    lugar = destino
+    ciudad = destino
   }
     
   method energia() {
