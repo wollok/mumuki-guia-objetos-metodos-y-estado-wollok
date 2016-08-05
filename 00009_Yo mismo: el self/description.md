@@ -13,14 +13,14 @@ object pepita {
 
 Esto se conoce como _delegar una responsabilidad_, o simplemente, **delegar**: la responsabilidad de saber el kilómetro es de la ciudad, y no de `pepita`. 
 
-A veces nos va a pasar que un objeto tiene un método muy complejo, y nos gustaría subdividirlo en problemas mas chicos que el mismo objeto puede resolver. La buena noticia es que ésto es muy fácil de hacer:  
+A veces nos va a pasar que un objeto tiene un método muy complejo, y nos gustaría subdividirlo en problemas mas chicos que **él mismo** objeto puede resolver. La buena noticia es que  un objeto puede enviarse un mensaje a sí mismo fácilmente: hay que enviar un mensaje a `self`. 
 
 ```wollok
 object pepita {
   /*...etc...*/
   
   method volarHacia(destino) {
-    energia -= pepita.gastoEnergetico(destino)
+    energia -= self.gastoEnergetico(destino)
     ciudad = destino
   }
   

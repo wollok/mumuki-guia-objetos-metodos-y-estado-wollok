@@ -15,7 +15,7 @@ object pepita {
   var ciudad = rosario
   
   method volarHacia(destino) {
-    energia -= pepita.gastoEnergetico(destino)
+    energia -= self.gastoEnergetico(destino)
     ciudad = destino
   }
 

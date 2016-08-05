@@ -1,1 +1,0 @@
-> Corregí la solución presentada, de forma que `pepita` delegue en sí misma usando `self`. 
