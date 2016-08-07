@@ -1,4 +1,6 @@
-Hay un pequeño problema conceptual en la solución anterior: ¿por qué debería `pepita`, una Golondrina, ser la responsable de calcular la distancia entre dos ciudades? Puesto de otra forma: ¿es _necesario_ contar con una golondrina para poder calcular la distancia entre dos lugares? ¿Cual es el objeto más pequeño que podría saber hacer esto? :thought_balloon:
+Hay un pequeño problema conceptual en la solución anterior: ¿por qué debería `pepita`, una Golondrina, ser la responsable de calcular la distancia entre dos ciudades?
+
+Puesto de otra forma: ¿es _necesario_ contar con una golondrina para poder calcular la distancia entre dos lugares? ¿Cual es el objeto más pequeño que podría saber hacer esto? :thought_balloon:
 
 ¿Lo pensaste? La respuesta es simple: ¡la misma ciudad! :open_mouth: Por ejemplo, `buenosAires` podría entender un mensaje `distanciaA`, que tome otra ciudad y devuelva la distancia entre ésta y sí misma.  
 
