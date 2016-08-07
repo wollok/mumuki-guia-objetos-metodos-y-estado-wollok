@@ -1,1 +1,0 @@
-La última solución delegaba las responsabilidades 
