@@ -14,6 +14,14 @@ test "rosario entiende distanciaA" {
   rosario.distanciaA(buenosAires)
 }
 
+test "pepita no entiende distanciaA" {
+  try {
+    pepita.distanciaA(buenosAires)
+    assert.fail("no deberia entender distanciaA")
+  } catch e : wollok.lang.MessageNotUnderstoodException {
+    //OK
+  } 
+}
 
 test "la distancia rosario -> rosario es 0" {
   assert.equals(0, rosario.distanciaA(rosario))
