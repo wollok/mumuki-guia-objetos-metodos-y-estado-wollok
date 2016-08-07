@@ -18,7 +18,7 @@ test "pepita no entiende distanciaA" {
   try {
     pepita.distanciaA(buenosAires)
     assert.fail("no deberia entender distanciaA")
-  } catch e {
+  } catch e : wollok.lang.MessageNotUnderstoodException {
     //OK
   }
 }
