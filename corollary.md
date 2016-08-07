@@ -1,7 +1,5 @@
-¡Bien hecho!
+Cuando trabajamos con objetos, tratreos de asignarle la responsabilidad de hacer algo al objeto más chico, más simple que pueda resolver esa tarea: hacer esto nos va a permitir evitar repetir código. 
 
-Ahora sabés qué es un método, que es un atributo, y cómo hacer que un objeto entienda mensajes. Además, vimos tres formas diferentes de resolver un mismo problema. 
+Como regla práctica, el objeto más simple para hacer algo es aquel _que tiene todo la mayor cantidad de conocimiento **necesario** para hacerlo_. Por ejemplo, para calcular la distancia se necesitan los kilometros de ambas ciudades, ¿y quien sabe estos kilómetros? ¿Anastasia? ¿Pepita? ¡No! Las ciudades de Rosario y Buenos Aires, así que ellas son buenas candidatas para tener al método `distanciaA`.  
 
-Sin embargo, no sólo hay mejores formas de resolverlo, sino que él paradigma de objetos tiene muchas más ideas interesantes que podemos aprender. 
-
-Pero antes, ¡a prácticar!
+Ahora bien, todo muy lindo peeeeero terminamos repitiendo código :cry:. Eso es muy malo, ¿podremos mejorarlo? ¡Por supuesto! Ya nos encargaremos de eso en próximas lecciones. Pero antes, ¡a prácticar!
