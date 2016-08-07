@@ -15,9 +15,8 @@ test "rosario entiende distanciaA" {
 }
 
 test "pepita no entiende distanciaA" {
-    pepita.distanciaA(buenosAires)
   try {
-    wollok.lang.MessageNotUnderstoodException
+    pepita.distanciaA(buenosAires)
   } catch e : wollok.lang.MessageNotUnderstoodException {
     //OK
   }
