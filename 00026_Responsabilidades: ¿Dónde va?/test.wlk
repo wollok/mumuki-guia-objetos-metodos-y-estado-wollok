@@ -6,6 +6,31 @@ object km296 {
   method kilometro() = 296
 }
 
+test "buenosAires entiende distanciaA" {
+  buenosAires.distanciaA(buenosAires)
+}
+
+test "rosario entiende distanciaA" {
+  rosario.distanciaA(buenosAires)
+}
+
+test "pepita no entiende distanciaA" {
+  try {
+    pepita.distanciaA(buenosAires)
+    assert.fail("no deberia entender distanciaA")
+  } catch e {
+    //OK
+  }
+}
+
+test "la distancia rosario -> rosario es 0" {
+  assert.equals(0, rosario.distanciaA(rosario))
+}
+
+test "la distancia rosario -> buenosAires es 0" {
+  assert.equals(298, rosario.distanciaA(buenosAires))
+}
+
 test "si pepita está en rosario y vuela a buenosAires, pierde 149 de energía" { 
    pepita.volarHacia(buenosAires)
    assert.equals(pepita.energia(), -49) 
