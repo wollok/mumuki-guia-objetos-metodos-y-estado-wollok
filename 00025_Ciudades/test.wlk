@@ -21,6 +21,6 @@ test "si pepita vuelaHacia(buenosAires) pierde 100 de energia" {
 
 
 test "si pepita vuelaHacia(buenosAires) queda en buenos aires" {
-   pepita.volarHacia(buenosAires)
-    assert.that(pepita.toString().contains("ciudad=buenosAires")) 
+  pepita.volarHacia(buenosAires)
+  assert.that(pepita.toString().contains("ciudad=buenosAires")) 
 }
