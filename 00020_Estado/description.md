@@ -17,5 +17,5 @@ El estado es siempre **privado**, es decir, sólo el objeto puede utilizar sus a
 * `ム pepita.energia`
 * `ム energia`
 
-> Veamos si se entiende: mirá los objetos en la solapa de código adicional y decinos el estado de cada uno. 
+> Veamos si se entiende: mirá los objetos en la solapa de código adicional (Biblioteca) y decinos el estado de cada uno. 
   
