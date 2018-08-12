@@ -1,4 +1,4 @@
-En el ejercicio anterior vimos que uno objeto (en este caso, `pepita`) le puede enviar mensajes a otro que conozca (en este caso, ciudades como `rosario` o `buenosAires`): 
+En el ejercicio anterior vimos que un objeto (en este caso, `pepita`) le puede enviar mensajes a otro que conozca (en este caso, ciudades como `rosario` o `buenosAires`): 
 
 ```wollok
 object pepita {
