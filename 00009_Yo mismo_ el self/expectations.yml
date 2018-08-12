@@ -1,0 +1,4 @@
+---
+expectations:
+- binding: gastoEnergetico
+  inspection: Uses:distanciaA
