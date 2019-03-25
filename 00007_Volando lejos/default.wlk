@@ -3,7 +3,7 @@ object pepita {
   var ciudad = rosario
   
   method volarHacia(destino) {
-    energia = //completar...
+    energia = // Completar acá...
     ciudad = destino
   }
     
@@ -17,9 +17,9 @@ object pepita {
 }
 
 object rosario {
-  //completar...
+  // Completar acá...
 }
 
 object buenosAires {
-  //completar...
+  // Completar acá...
 }

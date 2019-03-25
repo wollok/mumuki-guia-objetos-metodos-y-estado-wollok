@@ -1,7 +1,3 @@
-object cordoba {
-  method kilometro() = 696
-}
-
 test "si pepita está en rosario y vuela a buenosAires, pierde 29.8 de energía" { 
    pepita.volarHacia(buenosAires)
    assert.equals(pepita.energia(), 70.2) 
