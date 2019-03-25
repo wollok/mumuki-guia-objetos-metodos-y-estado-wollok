@@ -36,5 +36,5 @@ Y ahora, al declarar el metodo volarHasta(destino) necesitamos representar que `
 
 Como se ve, la forma en que un objeto delega un mensaje a **él mismo** , es utilizar la referencia `self` como objeto receptor del mensaje. En este contexto, `self` es `pepita`. 
 
-> Comprobá que funcione.
-> Declará en `pepita` un nuevo método `volarALaCapital()` que sin recibir parámetro haga que pepita vuele a Buenos Aires. Hacelo sin repetir lógica. 
+> * Primero, comprobá que funcione lo anterior.
+> * Después, declará en `pepita` un nuevo método `volarALaCapital()` que sin recibir parámetro haga que pepita vuele a Buenos Aires. Hacelo sin repetir lógica. 
