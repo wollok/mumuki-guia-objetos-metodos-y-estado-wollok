@@ -7,14 +7,14 @@ test "si está en rosario, la distancia a buenosAires es 298" {
   assert.equals(298, pepita.distancia(buenosAires))
 }
   
-test "si pepita está en rosario y vuela a buenosAires, su energia es 30.2" { 
+test "si pepita está en rosario y vuela a buenosAires, su energia es 70.2" { 
    pepita.volarHacia(buenosAires)
-   assert.equals(pepita.energia(), 30.2) 
+   assert.equals(pepita.energia(), 70.2) 
 }
 
-test "si pepita está en rosario y vuela a la capital, su energia es 30.2 " { 
+test "si pepita está en rosario y vuela a la capital, su energia es 70.2 " { 
    pepita.volarALaCapital()
-   assert.equals(30.2, pepita.energia()) 
+   assert.equals(70.2, pepita.energia()) 
 }
 
 test "si pepita está en rosario y vuela a la capital, su ciudad es Buenos Aires " { 
