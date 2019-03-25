@@ -2,7 +2,7 @@ En el ejercicio anterior vimos que un objeto (en este caso, `pepita`) le puede e
 
 Probablemente el método te quedó parecido a esto: 
 
-```wollok
+```scala
 method volarHacia(destino) {
   energia = energia - (ciudad.kilometro() - destino.kilometro()).abs() / 10
   ciudad = destino
