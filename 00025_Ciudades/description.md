@@ -4,9 +4,9 @@ La forma de enviar el mensaje, por ejemplo, puede ser:
 
 `pepita.volarHacia(buenosAires)`
 
-Con esto en mente, declará: 
+A los objetos `buenosAires` y `rosario` ya los declaramos
 
-> * los objetos `buenosAires` y `rosario`
+> Con esto en mente, declará: 
 > * un atributo variable `ciudad` en `pepita` para indicar la ciudad donde actualmente se encuentra.
 > * que la `ciudad` inicial de pepita sea `rosario`
 > * y lo más importante, el método que permita responder al mensaje. 

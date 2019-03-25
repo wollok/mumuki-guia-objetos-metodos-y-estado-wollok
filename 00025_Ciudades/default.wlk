@@ -1,6 +1,5 @@
 object pepita {
   var energia = 100
-
   // Completar acá...
   
   method estaFeliz() {
@@ -15,7 +14,8 @@ object pepita {
     energia = energia + 10
   }
   
-  // acá...
+  // Y acá...
 }
 
-//y acá...
+object rosario {}
+object buenosAires {}
