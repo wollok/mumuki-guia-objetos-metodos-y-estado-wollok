@@ -7,6 +7,6 @@ La forma de enviar el mensaje, por ejemplo, puede ser:
 Con esto en mente, declará: 
 
 > * los objetos `buenosAires` y `rosario`
-> * un atributo variable `ciudad` en `pepita`: la ciudad donde actualmente se encuentra.
+> * un atributo variable `ciudad` en `pepita` para indicar la ciudad donde actualmente se encuentra.
 > * que la `ciudad` inicial de pepita sea `rosario`
 > * y lo más importante, el método que permita responder al mensaje. 

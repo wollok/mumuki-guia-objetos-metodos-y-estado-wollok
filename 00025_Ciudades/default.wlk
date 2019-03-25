@@ -1,7 +1,7 @@
 object pepita {
   var energia = 100
 
-  //completár acá...
+  // Completar acá...
   
   method estaFeliz() {
     return energia >= 90
@@ -14,6 +14,8 @@ object pepita {
   method comerLombriz() {
     energia = energia + 10
   }
+  
+  // acá...
 }
 
 //y acá...

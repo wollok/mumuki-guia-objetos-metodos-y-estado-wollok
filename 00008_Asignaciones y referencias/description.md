@@ -19,5 +19,6 @@ Luego, la operación de asignación cambia ese apuntador: La variable `energia` 
 <img src="https://github.com/wollok/mumuki-guia-objetos-metodos-y-estado-wollok/raw/master/assets/reference2.png" width="300" />
 
 > Veamos si se va entendiendo: `pepita` también sabe `comerLombriz()`, y cuando lo hace, aumenta su energía en 10 unidades. :muscle:
+
 > Sabiendo esto, agregá a `pepita` el método `comerLombriz()` :bug:
 
