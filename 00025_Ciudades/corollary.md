@@ -2,15 +2,24 @@
 
 _un método puede devolver una sola cosa, ¡pero puede producir varios efectos! Es perfectamente válido que hagas dos asignaciones diferentes en un mismo método_
 
-¿Qué significa esto? Que lo siguiente **no se puede** escribir: 
+¿Qué significa esto? 
+
+Que está muy bien hacer:
 
 ```wollok
-object donRamon {
-    method nombreYApellido() {
-        //ESTO ESTÁ MAL: un método que devuelve algo puede tener un único retorno
-        return "Ramon"
-        return "Valdez"
-    }
-}
+  method volarHacia(destino) {
+    energia = energia - 100
+    ciudad = destino
+  }
+```
+
+Pero lo siguiente **no se puede** escribir: 
+
+```wollok
+  method destinoYEnergia() {
+    //ESTO ESTÁ MAL: un método que devuelve algo puede tener un único retorno
+    return energia
+    return ciudad
+  }
 ```
 

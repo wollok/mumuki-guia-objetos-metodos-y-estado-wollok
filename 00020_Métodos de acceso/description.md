@@ -24,7 +24,9 @@ Como se ve, sintácticamente no hay elementos nuevos. Por convención, se les po
 
 > ¡Probá ahora como funcionan!
 > Podes repetir las consultas anteriores y comprobar cuáles tienen sentido y cuáles no :confused: :
+
 > * `ム pepita.energia`
 > * `ム pepita.energia = 200`
 > * `ム pepita.energia()`
 > * `ム pepita.energia(200)`
+
