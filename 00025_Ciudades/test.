@@ -3,7 +3,7 @@ test "existe rosario" {
 }
 
 test "existe buenosAires" {
-  assert.that{buenosAires==buenosAires)
+  assert.that(buenosAires==buenosAires)
 }
 
 test "pepita tiene un atributo ciudad" {
