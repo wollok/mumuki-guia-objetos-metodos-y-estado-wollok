@@ -1,5 +1,7 @@
+
 object pepita {
-   method volarEnCirculos() {
+   method cantar() {
+      return "pri pri pri"
    }
 }
 

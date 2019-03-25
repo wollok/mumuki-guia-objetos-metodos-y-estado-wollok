@@ -1,1 +1,0 @@
-¡Está bien que te haya tirado error! Seguí adelante así vamos viendo lo que falta.

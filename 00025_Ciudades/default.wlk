@@ -3,12 +3,16 @@ object pepita {
 
   //completár acá...
   
+  method estaFeliz() {
+    return energia >= 90
+  }
+  
   method volarEnCirculos() {
-     energia -= 20
+    energia = energia - 20
   }
   
   method comerLombriz() {
-      energia += 10
+    energia = energia + 10
   }
 }
 

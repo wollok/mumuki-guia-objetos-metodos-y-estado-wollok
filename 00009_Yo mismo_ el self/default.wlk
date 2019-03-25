@@ -10,17 +10,23 @@ object buenosAires {
   }
 }
 
+object cordoba {
+  method kilometro() {
+     return 696
+  }
+}
+
 object pepita {
   var energia = 100
   var ciudad = rosario
   
   method volarHacia(destino) {
-    energia -= self.gastoEnergetico(destino)
+    energia = energia - self.distancia(destino) / 10
     ciudad = destino
   }
 
-  method gastoEnergetico(destino) {
-    return (ciudad.kilometro() - destino.kilometro()).abs() / 2
+  method distanciaHasta(destino) {
+    return (ciudad.kilometro() - destino.kilometro()).abs()
   }
   
   method energia() {

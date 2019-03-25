@@ -1,12 +1,9 @@
-Volar hacia un cierto punto no es tarea tán fácil: en realidad, `pepita` pierde tanta energía como la mitad de kilómetros que tenga que recorrer. Es decir, ignorando unidades, pierde energía según la siguiente cuenta:
+Volar hacia una ciudad no gasta siempre la misma energía: en realidad, `pepita` pierde tanta energía como la decima parte de los kilómetros que tenga que recorrer. Por ejemplo, si va de Rosario a Buenos Aires, que está a 298 kilómetros de distancia, consume 29.8 unidades de energía.
 
-```
-energiaPerdida = distancia(ciudadOrigen, ciudadDestino) / 2
-```
-
-Además, sabemos pepita vuela sobre [la ruta nacional 9](https://es.wikipedia.org/wiki/Ruta_Nacional_9_(Argentina)),  en la que Rosario está en el kilómetro 298 y Buenos Aires, en el kilómetro 0. 
+Para calcular las distancia, asumimos que pepita vuela sobre [la ruta nacional 9](https://es.wikipedia.org/wiki/Ruta_Nacional_9_(Argentina)), en la que Buenos Aires en el kilómetro 0, Rosario está en el kilómetro 298 y Córdoba en el 696. 
 
 > Sabiendo esto: 
 > 
-> * Agregar a `rosario` y `buenosAires` un método `kilómetro` que devuelva la altura a la que se encuentran
-> * Agregar al método `volarHacia` de  `pepita` la lógica necesaria para hacer el cálculo y alterar la energía.
+> * Agregar a `rosario` y `buenosAires` un método `kilómetro()` que devuelva el kilómetro de la ruta en el que se encuentra.
+> * Modificar el método `volarHacia(destino)` de `pepita` con la lógica necesaria para alterar la energía adecuadamente.
+> * Declará a `cordoba` y verificá que todo siga funcionando.

@@ -1,7 +1,0 @@
-object rosario {
-  
-}
-
-object buenosAires {
-  
-}

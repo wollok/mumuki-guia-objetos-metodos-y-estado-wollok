@@ -10,15 +10,14 @@ Lo que estamos haciendo allí es cambiar la energía de pepita: pasa de su valor
 
 No, en lo absoluto. 
 
-En objetos trabajamos con _referencias_: `energia` (un atributo) es una referencia a un objeto, que inicialmente _apunta_  al objeto `100`.
+En objetos trabajamos con _referencias_: `energia` (un atributo) es una referencia a un objeto, en particular una referencia variable, que inicialmente _apunta_  al objeto `100`.
 
 <img src="https://github.com/wollok/mumuki-guia-objetos-metodos-y-estado-wollok/raw/master/assets/reference1.png" width="300" />
 
-Luego, la operación de asignación cambia ese apuntador, que pasa a referenciar al `80`.
+Luego, la operación de asignación cambia ese apuntador: La variable `energia` pasa a referenciar al resultado de la resta, que es el objeto `80`.
 
 <img src="https://github.com/wollok/mumuki-guia-objetos-metodos-y-estado-wollok/raw/master/assets/reference2.png" width="300" />
 
-En este caso se da una particularidad: el objeto asignado a la referencia es el resultado de **enviar el mensaje** `-` al objeto apuntado originalmente por la referencia: `energia = energia - 20`. Y como esto es tan común, se puede escribir de forma más compacta: `energia -= 20`
+> Veamos si se va entendiendo: `pepita` también sabe `comerLombriz()`, y cuando lo hace, aumenta su energía en 10 unidades.
+> Sabiendo esto, agregá a `pepita` el método `comerLombriz()` 
 
-
-> Veamos si queda claro, reescribí los métodos en el editor para que usen cuando puedan el `-=`, y su contrapartida, el `+=`

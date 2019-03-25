@@ -1,3 +1,0 @@
-Recordemos que `anastasia`  y `pepita` también saben comer lombrices. 
-
-> Agregá en ambas los métodos necesarios para que entiendan el mensaje `comerLombriz`. 

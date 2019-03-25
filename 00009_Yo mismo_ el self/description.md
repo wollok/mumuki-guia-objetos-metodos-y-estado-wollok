@@ -1,33 +1,40 @@
-En el ejercicio anterior vimos que un objeto (en este caso, `pepita`) le puede enviar mensajes a otro que conozca (en este caso, ciudades como `rosario` o `buenosAires`): 
+En el ejercicio anterior vimos que un objeto (en este caso, `pepita`) le puede enviar mensajes a otro que conozca (en este caso, ciudades como `rosario`, `buenosAires` o `cordoba`): 
+
+Probablemente el método te quedó parecido a esto: 
 
 ```wollok
-object pepita {
-  /*...etc...*/
-  
-  method volarHacia(destino) {
-    energia -= ((ciudad.kilometro() - destino.kilometro()).abs() / 2)
-    ciudad = destino
-  }
+method volarHacia(destino) {
+  energia = energia - (ciudad.kilometro() - destino.kilometro()).abs() / 10
+  ciudad = destino
 }
 ```
 
-Esto se conoce como _delegar una responsabilidad_, o simplemente, **delegar**: la responsabilidad de saber el kilómetro es de la ciudad, y no de `pepita`. 
+Está bien, pero un poco extenso y difícil de entender: un método hace muchas cosas. ¿Cuál es la solución a este problema? ¡Partir el problema en subproblemas, obvio! 
 
-A veces nos va a pasar que un objeto tiene un método muy complejo, y nos gustaría subdividirlo en problemas mas chicos que **él mismo** objeto puede resolver. La buena noticia es que  un objeto puede enviarse un mensaje a sí mismo fácilmente: hay que enviar un mensaje a `self`. 
+Esto se conoce como _delegar una responsabilidad_, o simplemente, **delegar**. Se trata de detectar tareas más pequeñas en las cuales descomponer una solución más compleja, identificar los objetos responsables de realizarlas y enviarles los mensajes correspondientes. Es lo que hacemos todos cuando tenemos que hacer algo difícil: Le pedimos a alguien que nos ayude.
+
+En este caso, una tarea más pequeña que podemos _delegar_ es el cálculo de distancia desde la ciudad actual hasta el destino. Un método que se encargue de consultar los kilómetros, hacer la resta, obtener el valor absoluto y retornarlo. 
+
+Pero antes de hacerlo, tenemos que determinar qué objeto va a asumir dicha responsabilidad, es decir, va a tener declarado un método que lo haga. ¿A quién te parece que pepita le puede pedir ayuda? Las opciones son los objetos que tenemos, como la misma `pepita` y las diferentes ciudades, o declarar uno nuevo.
+
+Empecemos plantando que `pepita` sea la responsable y hagamos un método para calcular la distancia a volar:
 
 ```wollok
-object pepita {
-  /*...etc...*/
-  
-  method volarHacia(destino) {
-    energia -= self.gastoEnergetico(destino)
-    ciudad = destino
+  method distancia(destino) {
+    return (ciudad.kilometros() - destino.kilometros()). abs() 
   }
-  
-  method gastoEnergetico(destino) {
-    return (ciudad.kilometro() - destino.kilometro()).abs() / 2
-  }
-}
 ```
 
-> Pero esto se puede hacer mejor. Delegá también el cálculo de la distancia a un método `distanciaA`, que tome un destino y devuelva la distancia desde la ciudad actual hasta el destino. 
+Y ahora, al declarar el metodo volarHasta(destino) necesitamos representar que `pepita` se manda un mensaje a sí misma para calcular la distancia:
+
+```wollok
+  method volarHacia(destino) {
+    energia = energia - self.distancia(destino) / 10
+    ciudad = destino
+  }
+```
+
+Como se ve, la forma en que un objeto delega un mensaje a **él mismo** , es utilizar la referencia `self` como objeto receptor del mensaje. En este contexto, `self` es `pepita`. 
+
+> Comprobá que funcione.
+> Declará en `pepita` un nuevo método `volarALaCapital()` que sin recibir parámetro haga que pepita vuele a Buenos Aires. Hacelo sin repetir lógica. 

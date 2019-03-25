@@ -1,10 +1,9 @@
 ---
 tags: []
-layout: input_right
-editor: code
+layout: input_bottom
+editor: 0
 type: playground
 extra_visible: true
-teacher_info: ''
 manual_evaluation: false
 choices: []
 name: Declarando objetos

@@ -2,22 +2,17 @@ object pepita {
   var energia = 100
   var ciudad = rosario
   
-  method volarEnCirculos() {
-     energia = energia - 20
-  }
-  
-  method comerLombriz() {
-     energia = energia + 10
-  }
-  
-  method volarHacia(destino) {
-    energia = energia - 100
-    ciudad = destino
-  }
+  //completar y modificar acá...
   
   method energia() {
     return energia
   }
   
-  //completar acá...
+  method energia(valor) {
+    energia = valor
+  }
+  
 }
+
+object rosario {}
+object buenosAires {}

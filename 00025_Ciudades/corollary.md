@@ -4,7 +4,7 @@ _un método puede devolver una sola cosa, ¡pero puede producir varios efectos! 
 
 ¿Qué significa esto? Que lo siguiente **no se puede** escribir: 
 
-```scala
+```wollok
 object donRamon {
     method nombreYApellido() {
         //ESTO ESTÁ MAL: un método que devuelve algo puede tener un único retorno

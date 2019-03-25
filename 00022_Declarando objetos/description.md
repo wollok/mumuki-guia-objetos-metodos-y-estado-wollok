@@ -1,13 +1,14 @@
-Inicialmente en el ambiente sólo existen objetos simples como números, strings y booleanos. Pero si queremos crear y utilizar objetos definidos por nosotros, tenemos que **declararlos**. Eso lo hacemos de la siguiente forma: 
+Inicialmente, en el ambiente ya existen objetos como `true`, `1`, `"hola mundo"` y otros similares. En definitiva, todos los números, cadenas de caracteres y booleanos son objetos y con solo expresarlos con la sintaxis adecuada (comillas dobles o simples para los strings, punto para los numeros con parte decimal, true y false para los valores de verdad) ya están disponibles para ser usados. Cada uno de ellos ya entiende una serie de mensajes predefinidos. Se les llama **literales**. 
 
-```scala
-object pepita {
+Pero al momento de resolver un problema concreto, de modelar elementos de la realidad, se necesitan nuevos objetos y para que existan hay que **declararlos**. Por ejemplo, para contar con `anastasia` en el ambiente de objetos la tenemos que **declarar** de la siguiente forma: 
+
+```wollok
+object anastasia {
 }
 ```
 
-¡Y listo! ¡_Habemus_ pepita! Ya nuestro objeto está listo para ser usado, ...¿o no? Si bien al declarar a `pepita` la estás creando, para que un objeto sea realmente útil debe entender mensajes.  
+¡Y listo! ¡_Habemus_ anastasia! 
+(Esta vez ya lo declaramos nosotros :stuck_out_tongue_winking_eye:. Podés ver el código en la solapa **Biblioteca**. Después te va a tocar a vos)
 
-
-> ¿Entenderá `pepita` mensajes como `===`? ¿Y `volarEnCirculos`? :thought_balloon:  
-> 
+> Nuestro objeto ya existe.
 > ¡Probalo!

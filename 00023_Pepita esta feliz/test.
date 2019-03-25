@@ -1,0 +1,4 @@
+test "pepita entiende esta feliz" {
+  assert.that(pepita.estaFeliz())
+}
+

@@ -1,3 +1,0 @@
-¡Ups! Nuestro objeto recién creado no entiende `volarEnCirculos` :confused: . Pero vamos por partes...
-
-> Ser un objeto solitario no es muy divertido: declará a `anastasia`, la amiga de `pepita`
