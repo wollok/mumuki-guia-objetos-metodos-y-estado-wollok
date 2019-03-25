@@ -23,3 +23,7 @@ object rosario {
 object buenosAires {
   // Completar acá...
 }
+
+object cordoba {
+  // Completar acá...
+}
