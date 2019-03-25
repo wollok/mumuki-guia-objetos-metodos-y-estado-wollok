@@ -3,7 +3,7 @@ test "Pepita tiene el getter energia()" {
 }
 
 test "Pepita no tiene el setter energia(valor)" {
-  assert.throwsExeption({pepita.energia(200)})
+  assert.throwsException({pepita.energia(200)})
 }
 
 test "Pepita tiene el getter ciudad()" {
