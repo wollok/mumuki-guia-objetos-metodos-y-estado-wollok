@@ -1,6 +1,6 @@
 ¡Ups! Nuestro objeto recién creado no entiende `cantar()` ni los otros mensajes :confused: . Pero vamos por partes...
 
-¿Cómo hacemos que un objeto entienda un mensaje? ¿Cómo sabe 'pepita' qué cuando le piden cantar debe responder con su canto característico? Tenemos que declararle un **método**: 
+¿Cómo hacemos que un objeto entienda un mensaje? ¿Cómo sabe `pepita` qué cuando le piden cantar debe responder con su canto característico? Tenemos que declararle un **método**: 
 
 ```wollok
 object pepita {

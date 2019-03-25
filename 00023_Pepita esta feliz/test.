@@ -1,4 +1,8 @@
-test "pepita entiende esta feliz" {
+test "Existe el metodo esta feliz" {
+  pepita.estaFeliz()
+}
+
+test "es cierto que pepita esta feliz" {
   assert.that(pepita.estaFeliz())
 }
 

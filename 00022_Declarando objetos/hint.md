@@ -1,1 +1,1 @@
-Simplemente escribí `anastasia` en la consola para comprobar que exista, y presiona <Enter>
+Simplemente escribí `anastasia` en la consola para comprobar que exista, y presiona `Enter`
