@@ -25,7 +25,7 @@ object pepita {
     ciudad = destino
   }
 
-  method distanciaHasta(destino) {
+  method distancia(destino) {
     return (ciudad.kilometro() - destino.kilometro()).abs()
   }
   
