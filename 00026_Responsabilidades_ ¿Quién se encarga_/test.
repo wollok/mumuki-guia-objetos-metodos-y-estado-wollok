@@ -1,16 +1,3 @@
-
-test "buenosAires entiende distanciaA" {
-  buenosAires.distanciaA(buenosAires)
-}
-
-test "rosario entiende distanciaA" {
-  rosario.distanciaA(buenosAires)
-}
-
-test "pepita ya no entiende distanciaHasta" {
-  assert.throwsException{pepita.distanciaA(buenosAires)}
-}
-
 test "la distancia rosario -> rosario es 0" {
   assert.equals(0, mapa.distanciaEntre(rosario, rosario))
 }
