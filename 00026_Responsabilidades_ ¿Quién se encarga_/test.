@@ -8,7 +8,7 @@ test "rosario entiende distanciaA" {
 }
 
 test "pepita ya no entiende distanciaHasta" {
-  assert.throwsException({pepita.distanciaA(buenosAires)}
+  assert.throwsException{pepita.distanciaA(buenosAires)}
 }
 
 test "la distancia rosario -> rosario es 0" {
