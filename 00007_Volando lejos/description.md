@@ -4,6 +4,6 @@ Para calcular las distancia, asumimos que pepita vuela sobre [la ruta nacional 9
 
 > Sabiendo esto: 
 > 
-> * Agregar a `rosario` y `buenosAires` un método `kilómetro()` que devuelva el kilómetro de la ruta en el que se encuentra.
+> * Agregar a `rosario` y `buenosAires` un método `kilometro()` que devuelva el kilómetro de la ruta en el que se encuentra.
 > * Modificar el método `volarHacia(destino)` de `pepita` con la lógica necesaria para alterar la energía adecuadamente.
 > * Completá la definición de `cordoba` para que todo siga funcionando.
