@@ -1,7 +1,7 @@
-object pepita {
+object pepucha {
   var energia = 100
   
-  method estaFeliz() {
+  method estasFeliz() {
     return energia >= 90
   }
   method volarEnCirculos() {

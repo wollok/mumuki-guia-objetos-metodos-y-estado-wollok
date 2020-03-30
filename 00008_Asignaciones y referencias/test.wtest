@@ -1,14 +1,14 @@
-test "pepita tiene inicialmente 100 unidades de energía" {
-  assert.that(pepita.toString().contains("energia=100"))
+test "pepucha tiene inicialmente 100 unidades de energía" {
+  assert.that(pepucha.toString().contains("energia=100"))
 }
 
-test "pepita pierde 20 unidades de energía cuando vuela en circulos" {
-  pepita.volarEnCirculos()
-  assert.that(pepita.toString().contains("energia=80"))
+test "pepucha pierde 20 unidades de energía cuando vuela en circulos" {
+  pepucha.volarEnCirculos()
+  assert.that(pepucha.toString().contains("energia=80"))
   
 }
 
-test "pepita gana 10 unidades de energía cuando come una lombriz" {
-  pepita.comerLombriz()
-  assert.that(pepita.toString().contains("energia=110"))
+test "pepucha gana 10 unidades de energía cuando come una lombriz" {
+  pepucha.comerLombriz()
+  assert.that(pepucha.toString().contains("energia=110"))
 }
