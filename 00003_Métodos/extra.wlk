@@ -1,7 +1,7 @@
 
-object pepita {
-   method cantar() {
-      return "pri pri pri"
+object pepucha {
+   method estasFeliz() {
+      return true
    }
 }
 
