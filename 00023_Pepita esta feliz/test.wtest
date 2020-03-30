@@ -1,12 +1,12 @@
-test "Existe pepita" {
-  pepita
+test "Existe pepucha" {
+  pepucha
 }
 
-test "Pepita entiende el mensaje estaFeliz()" {
-  pepita.estaFeliz()
+test "Pepucha entiende el mensaje estaFeliz()" {
+  pepucha.estaFeliz()
 }
 
 test "El mensaje estaFeliz() responde afirmativamente" {
-  assert.that(pepita.estaFeliz())
+  assert.that(pepucha.estaFeliz())
 }
 
