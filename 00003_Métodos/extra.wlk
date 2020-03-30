@@ -1,7 +1,7 @@
 
 object pepucha {
-   method estasFeliz() {
-      return true
+   method energia() {
+      return 50
    }
 }
 

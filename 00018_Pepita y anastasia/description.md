@@ -6,4 +6,4 @@ El objeto `pepucha` existe y está listo para ser usado... ¿o no? ¿Cómo lo us
 Si bien al declarar a `pepucha` la estás creando, para que un objeto sea realmente útil debe entender mensajes.  
 
 > Despues de enviar tu solución, ¡Abrí la consula y fijate que sucede cuando le preguntás algo!
-> ¿Entenderá `pepucha` mensajes como `comerLombriz()`, `estasFeliz()` o `volarEnCirculos()`? :thought_balloon:  
+> ¿Entenderá `pepucha` mensajes como `energia()`, `estasFeliz()` o `volarEnCirculos()`? :thought_balloon:  
