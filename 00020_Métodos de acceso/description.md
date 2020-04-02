@@ -1,9 +1,11 @@
-Como vimos, si queremos que un objeto pueda entender mensajes que pretenden acceder a sus atributos, necesitamos declarar los métodos correspondientes.
+Como vimos, la única forma de acceder a un atributo de un objeto ... es la única permitida para _cualquier_ interacción con el objeto: enviarle un mensaje. 
+A su vez, para que el objeto entienda el mensaje que le enviamos, necesitamos declarar los métodos correspondientes.
 
-Comunmente se los denomina **accessors** y son métodos simples de declarar:
+Comúnmente se denomina **accessors** a los métodos que permiten acceder o modificar el valor de un atributo.
+Los accessors son métodos simples de declarar:
 
 ```wollok
-object pepita {
+object pepucha {
   var energia = 100
   var ciudad = rosario
 
@@ -25,8 +27,8 @@ Como se ve, sintácticamente no hay elementos nuevos. Por convención, se les po
 > ¡Probá ahora como funcionan!
 > Podes repetir las consultas anteriores y comprobar cuáles tienen sentido y cuáles no :confused: :
 
-> * `ム pepita.energia`
-> * `ム pepita.energia = 200`
-> * `ム pepita.energia()`
-> * `ム pepita.energia(200)`
+> * `ム pepucha.energia`
+> * `ム pepucha.energia = 200`
+> * `ム pepucha.energia()`
+> * `ム pepucha.energia(200)`
 
