@@ -8,6 +8,7 @@ La forma de enviar el mensaje, por ejemplo, puede ser:
 A los objetos `buenosAires` y `rosario` ya los declaramos
 
 > Con esto en mente, declará: 
+>
 > * un atributo variable `ciudad` en `pepucha` para indicar la ciudad donde actualmente se encuentra.
 > * que la `ciudad` inicial de Pepucha sea `rosario`
 > * y lo más importante, el método que permita responder al mensaje `volarHacia(<ciudad>)`. 

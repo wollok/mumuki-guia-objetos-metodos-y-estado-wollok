@@ -16,7 +16,7 @@ object cordoba {
   }
 }
 
-object pepita {
+object pepucha {
   var energia = 100
   var ciudad = rosario
   
