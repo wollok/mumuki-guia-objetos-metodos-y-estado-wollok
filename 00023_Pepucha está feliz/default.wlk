@@ -1,4 +1,4 @@
-object pepita {
+object pepucha {
   method volarEnCirculos() {
     
   }
