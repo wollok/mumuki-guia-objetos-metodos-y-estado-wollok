@@ -21,7 +21,7 @@ Empecemos plantando que `pepucha` sea la responsable y hagamos un método para c
 
 ```wollok
   method distancia(destino) {
-    return (ciudad.kilometros() - destino.kilometros()). abs() 
+    return (ciudad.kilometro() - destino.kilometro()). abs() 
   }
 ```
 
