@@ -19,7 +19,7 @@ object pepucha {
 
 object rosario {
   method distancia(destino) {
-    return (self.kilometros() - destino.kilometros()).abs()
+    return (self.kilometro() - destino.kilometro()).abs()
   }
 }  
 ```
