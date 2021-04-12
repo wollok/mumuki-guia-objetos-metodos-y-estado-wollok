@@ -6,6 +6,10 @@ test "la distancia rosario -> buenosAires es 298" {
   assert.equals(298, mapa.distanciaEntre(rosario, buenosAires))
 }
 
+test "la distancia buenosAires -> rosario también es 298" {
+  assert.equals(298, mapa.distanciaEntre(buenosAires, rosario))
+}
+
 test "si pepucha está en rosario y vuela a buenosAires, queda con energia 70.2" { 
    pepucha.volarHacia(buenosAires)
    assert.equals(70.2, pepucha.energia()) 
