@@ -3,6 +3,13 @@ test "si pepucha está en rosario y vuela a buenosAires, pierde 29.8 de energía
    assert.equals(pepucha.energia(), 70.2) 
 }
 
+test "si pepucha está en rosario, vuela a buenosAires, pierde e veces 29.8 de energía" { 
+   pepucha.volarHacia(buenosAires)
+  pepucha.volarHacia(rosario)
+
+   assert.equals(70.2 - 29.8, pepucha.energia()) 
+}
+
 test "si pepucha está en rosario y vuela a rosario, no pierde energia" { 
    pepucha.volarHacia(rosario)
    assert.equals(pepucha.energia(), 100) 
